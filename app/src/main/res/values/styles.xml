@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="NK.TextInput.TitleLayout.Outline" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:hint">Note Title</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="NK.TextInput.TitleEdit.Outline" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textSize">18sp</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+    <style name="NK.TextInput.NTextLayout.Outline" parent="NK.TextInput.TitleLayout.Outline">
+        <item name="android:hint">Note...</item>
+    </style>
+    <style name="NK.TextInput.NTextEdit.Outline" parent="NK.TextInput.TitleEdit.Outline">
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:minLines">6</item>
+        <item name="android:gravity">top|start</item>
+    </style>
+</resources>
